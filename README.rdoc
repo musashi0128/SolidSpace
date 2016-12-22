@@ -23,6 +23,17 @@ Things you may want to cover:
 
 * ...
 
+/* Userモデルに追加*/
+annual_income(年収)
+notification(通知)
+hope_area(希望エリア)
+price_range(価格帯)
+breadth_range(広さ)
+pets_allowed(ペット可)
+
+
+/* FB OmniAdd to UsersModel */
+rails g migration AddOmniauthToUsers provider:string uid:string image:string name:string
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
